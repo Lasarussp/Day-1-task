@@ -1,0 +1,56 @@
+2.Write a blog on Difference between HTTP1.1 vs HTTP2;
+ 
+HTTP 1.1 ;
+
+--> HTTP Since 1990
+--> Safe and Idempotent Methods
+--> Safe Methods
+--> POST,PUT,DELETE 
+--> Idempotent Methods
+--> GET,HEAD,PUT,DELETE
+HTTP 1.1;
+
+--> provides faster delivery of web pages than the original HTTP and reduces Web traffic
+Multiple tcp conncetion
+
+
+HTTP 2.0;
+
+-->HTTP 2 since 2015        
+-->   Binery Framing layer
+-->     Flexibility of data transfer           
+--> Single tcp connection
+-->  Less prone errors
+-->  Lighter network footprint
+
+
+
+
+
+
+
+3.Write a blog about objects and its internal representation in Javascript
+
+
+Objects its most important data-type and forms the building block for modern javascript
+objects different from JavaScript’s primitive data-types(Number, String, Boolean, null, undefined and symbol)
+ primitive or reference types, in the form of “key: value” pairs. 
+
+Create JavaScript Object with Object Literal;
+
+let bike = {name: 'Bajaj', brand:'Ns 200', engine:'198.99cc'};
+
+Create JavaScript Object with Constructor;
+
+ Create a constructor to provide the key values;
+
+-->  function Vehicle(name, brand) {
+       this.name = name;
+       this.brand = brand;
+}
+let car1 = new Vehicle(’acent’, 'Ford’);
+let car2 = new Vehicle(’Santro’, 'Hyundai’)
+console.log(car1.name);    //Output: acent
+console.log(car2.name);    //Output: Santro
+
+
